@@ -1,0 +1,364 @@
+2024-10-23 09:36:03,455 - INFO - __main__ - Application started.
+2024-10-23 09:36:13,474 - INFO - __main__ - Application started.
+2024-10-23 09:36:13,508 - WARNING - __main__ - No .byaldi folder found. No existing indexes to load.
+2024-10-23 09:36:13,508 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-23 09:37:34,916 - INFO - __main__ - File saved: uploaded_documents\e65a89d9-6d82-4fca-a87a-465b0dfa0618\temp.pdf
+2024-10-23 09:37:34,917 - INFO - models.indexer - Starting document indexing in folder: uploaded_documents\e65a89d9-6d82-4fca-a87a-465b0dfa0618
+2024-10-23 09:37:34,918 - INFO - models.indexer - Conversion of non-PDF documents to PDFs completed.
+2024-10-23 09:38:00,664 - INFO - models.indexer - RAG model initialized with vidore/colqwen2-v0.1.
+2024-10-23 13:45:48,701 - INFO - models.indexer - Indexing completed. Index saved at 'C:\Users\A507658\Downloads\localGPT-Vision\.byaldi\e65a89d9-6d82-4fca-a87a-465b0dfa0618'.
+2024-10-23 13:45:48,707 - INFO - __main__ - Documents indexed successfully.
+2024-10-23 15:10:38,804 - INFO - models.retriever - Retrieving documents for query: what about DISCUSSION OF MANAGEMENT
+2024-10-23 15:11:18,495 - DEBUG - models.retriever - Retrieved and saved image: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-23 15:11:18,495 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-23 15:11:18,713 - DEBUG - models.retriever - Retrieved and saved image: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-23 15:11:18,713 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-23 15:11:19,008 - DEBUG - models.retriever - Retrieved and saved image: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-23 15:11:19,008 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-23 15:11:19,009 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png']
+2024-10-23 15:11:19,009 - INFO - __main__ - Retrieved images: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png']
+2024-10-23 15:11:19,009 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-23 15:11:19,009 - ERROR - models.responder - Error generating response: GOOGLE_API_KEY not found in .env file
+2024-10-23 15:12:48,770 - INFO - models.retriever - Retrieving documents for query: "AIzaSyBD-jJMcsVW1wUXBQ22BOx8mmEnyuirw84"
+2024-10-23 15:13:53,617 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-23 15:13:53,617 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-23 15:13:53,620 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-23 15:13:53,621 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-23 15:13:53,624 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-23 15:13:53,624 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-23 15:13:53,624 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png']
+2024-10-23 15:13:53,625 - INFO - __main__ - Retrieved images: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png']
+2024-10-23 15:13:53,625 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-23 15:13:53,626 - ERROR - models.responder - Error generating response: GOOGLE_API_KEY not found in .env file
+2024-10-23 15:17:11,006 - INFO - models.retriever - Retrieving documents for query: what about DISCUSSION OF MANAGEMENT
+2024-10-23 15:17:47,721 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-23 15:17:47,721 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-23 15:17:47,726 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-23 15:17:47,726 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-23 15:17:47,729 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-23 15:17:47,729 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-23 15:17:47,729 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png']
+2024-10-23 15:17:47,730 - INFO - __main__ - Retrieved images: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png']
+2024-10-23 15:17:47,731 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-23 15:17:47,731 - ERROR - models.responder - Error generating response: GOOGLE_API_KEY not found in .env file
+2024-10-23 15:26:15,466 - INFO - models.retriever - Retrieving documents for query: what are the symptoms ?
+2024-10-23 15:26:51,894 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-23 15:26:51,894 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-23 15:26:51,898 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-23 15:26:51,898 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-23 15:26:51,901 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-23 15:26:51,901 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-23 15:26:51,902 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png']
+2024-10-23 15:26:51,902 - INFO - __main__ - Retrieved images: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png']
+2024-10-23 15:26:51,902 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-23 15:26:51,902 - ERROR - models.responder - Error generating response: GOOGLE_API_KEY not found in .env file
+2024-10-24 11:18:07,337 - INFO - __main__ - Application started.
+2024-10-24 11:18:16,491 - INFO - __main__ - Application started.
+2024-10-24 11:24:10,280 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-10-24 11:24:10,280 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-24 11:29:45,352 - INFO - models.retriever - Retrieving documents for query: what about DISCUSSION OF MANAGEMENT
+2024-10-24 11:30:20,418 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-24 11:30:20,418 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-24 11:30:20,422 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-24 11:30:20,422 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-24 11:30:20,426 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-24 11:30:20,426 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-24 11:30:20,427 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png']
+2024-10-24 11:30:20,427 - INFO - __main__ - Retrieved images: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png']
+2024-10-24 11:30:20,427 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 11:30:26,120 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 11:31:46,972 - INFO - models.retriever - Retrieving documents for query: Treatment of Locoregionally Advanced Gastric Cancer?
+2024-10-24 11:32:27,605 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-24 11:32:27,605 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_a618d3d86dde437bbacb246141cfe317.png
+2024-10-24 11:32:27,610 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-24 11:32:27,610 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png
+2024-10-24 11:32:27,615 - DEBUG - models.retriever - Image already exists: static\images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-24 11:32:27,615 - INFO - models.retriever - Added image to list: images\e65a89d9-6d82-4fca-a87a-465b0dfa0618\retrieved_fc7500f85207ded648cecfe20b6e5b81.png
+2024-10-24 11:32:27,615 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png']
+2024-10-24 11:32:27,615 - INFO - __main__ - Retrieved images: ['images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_a618d3d86dde437bbacb246141cfe317.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_9c7c6877f97f47556403f8e51f8e05f5.png', 'images\\e65a89d9-6d82-4fca-a87a-465b0dfa0618\\retrieved_fc7500f85207ded648cecfe20b6e5b81.png']
+2024-10-24 11:32:27,615 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 11:32:33,277 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 11:34:55,922 - INFO - __main__ - File saved: uploaded_documents\b206333c-ca70-49b6-8509-8497525ca60b\AP21135010001_4.pdf
+2024-10-24 11:34:55,922 - INFO - models.indexer - Starting document indexing in folder: uploaded_documents\b206333c-ca70-49b6-8509-8497525ca60b
+2024-10-24 11:34:55,923 - INFO - models.indexer - Conversion of non-PDF documents to PDFs completed.
+2024-10-24 11:35:16,281 - INFO - models.indexer - RAG model initialized with vidore/colqwen2-v0.1.
+2024-10-24 15:17:49,152 - INFO - models.indexer - Indexing completed. Index saved at 'C:\Users\A507658\Downloads\localGPT-Vision\.byaldi\b206333c-ca70-49b6-8509-8497525ca60b'.
+2024-10-24 15:17:49,170 - INFO - __main__ - Documents indexed successfully.
+2024-10-24 16:07:45,206 - INFO - models.retriever - Retrieving documents for query: list the patents and their number
+2024-10-24 16:08:19,343 - DEBUG - models.retriever - Retrieved and saved image: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 16:08:19,344 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 16:08:19,492 - DEBUG - models.retriever - Retrieved and saved image: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 16:08:19,492 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 16:08:19,624 - DEBUG - models.retriever - Retrieved and saved image: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 16:08:19,624 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 16:08:19,624 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png']
+2024-10-24 16:08:19,626 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png']
+2024-10-24 16:08:19,628 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 16:08:25,046 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 16:47:05,906 - INFO - models.retriever - Retrieving documents for query: information about the RLMS
+2024-10-24 16:47:38,989 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 16:47:38,989 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 16:47:38,989 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 16:47:38,989 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 16:47:38,989 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 16:47:38,989 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 16:47:38,989 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png']
+2024-10-24 16:47:38,989 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png']
+2024-10-24 16:47:38,989 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 16:47:43,135 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 16:51:33,679 - INFO - __main__ - Application started.
+2024-10-24 16:51:41,959 - INFO - __main__ - Application started.
+2024-10-24 16:52:05,401 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-10-24 16:52:26,116 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-10-24 16:52:26,116 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-24 16:52:26,116 - INFO - models.retriever - Retrieving documents for query: information about the RLMS
+2024-10-24 16:53:00,156 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 16:53:00,156 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 16:53:00,157 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 16:53:00,157 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 16:53:00,159 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 16:53:00,160 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 16:53:00,160 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png']
+2024-10-24 16:53:00,160 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png']
+2024-10-24 16:53:00,160 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 16:53:04,551 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 16:53:59,894 - INFO - __main__ - Application started.
+2024-10-24 16:54:14,311 - INFO - __main__ - Application started.
+2024-10-24 16:54:25,544 - INFO - __main__ - Application started.
+2024-10-24 16:55:10,494 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-10-24 16:55:29,823 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-10-24 16:55:29,823 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-24 16:55:29,831 - INFO - models.retriever - Retrieving documents for query: about rlms and full form about it?
+2024-10-24 16:56:06,635 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 16:56:06,636 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 16:56:06,637 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 16:56:06,637 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 16:56:06,638 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 16:56:06,639 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 16:56:06,639 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png']
+2024-10-24 16:56:06,639 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png']
+2024-10-24 16:56:06,639 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 16:56:09,766 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 16:58:48,087 - INFO - __main__ - Application started.
+2024-10-24 16:59:36,694 - INFO - __main__ - Application started.
+2024-10-24 16:59:44,812 - INFO - __main__ - Application started.
+2024-10-24 17:00:12,480 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-10-24 17:00:32,902 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-10-24 17:00:32,902 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-24 17:00:32,904 - INFO - models.retriever - Retrieving documents for query: information about the Phani
+2024-10-24 17:01:06,994 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 17:01:06,994 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 17:01:06,996 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 17:01:06,996 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 17:01:06,999 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 17:01:06,999 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 17:01:06,999 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-24 17:01:06,999 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-24 17:01:06,999 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 17:01:12,600 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 17:01:23,342 - INFO - models.retriever - Retrieving documents for query: information about the Phani
+2024-10-24 17:01:35,835 - INFO - models.retriever - Retrieving documents for query: list the 
+2024-10-24 17:01:58,136 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 17:01:58,136 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 17:01:58,136 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 17:01:58,136 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 17:01:58,136 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 17:01:58,136 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 17:01:58,136 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-24 17:01:58,136 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-24 17:01:58,136 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 17:02:04,142 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 17:02:07,213 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 17:02:07,213 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 17:02:07,213 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 17:02:07,213 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_947fe1da9b608d8e1b00defc30c96900.png
+2024-10-24 17:02:07,213 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 17:02:07,213 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-24 17:02:07,213 - INFO - models.retriever - Total 3 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png']
+2024-10-24 17:02:07,213 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_947fe1da9b608d8e1b00defc30c96900.png', 'images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png']
+2024-10-24 17:02:07,213 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 17:02:12,909 - INFO - models.responder - Response generated using Gemini model.
+2024-10-24 17:03:52,540 - INFO - __main__ - Application started.
+2024-10-24 17:04:42,248 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-10-24 17:05:09,960 - INFO - __main__ - Application started.
+2024-10-24 17:05:18,450 - INFO - __main__ - Application started.
+2024-10-24 17:05:36,068 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-10-24 17:05:54,828 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-10-24 17:05:54,828 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-24 17:06:20,789 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-10-24 17:06:42,790 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-10-24 17:06:42,791 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-24 17:06:57,733 - INFO - models.retriever - Retrieving documents for query: information about the RLMS
+2024-10-24 17:07:32,079 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 17:07:32,079 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-24 17:07:32,080 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-24 17:07:32,080 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-24 17:07:32,080 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-24 17:07:35,722 - INFO - models.responder - Response generated using Gemini model.
+2024-10-25 09:50:56,027 - INFO - __main__ - Settings updated: indexer_model=vidore/colqwen2-v0.1, generation_model=qwen, resized_height=280, resized_width=280
+2024-10-25 09:51:02,477 - INFO - models.retriever - Retrieving documents for query: information about the Phani
+2024-10-25 09:51:41,708 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-25 09:51:41,708 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png
+2024-10-25 09:51:41,708 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png']
+2024-10-25 09:51:41,708 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_d8d91f3ce2b2267e241ef7c6c2ca68c1.png']
+2024-10-25 09:51:41,708 - INFO - models.responder - Generating response using model 'qwen'.
+2024-10-25 09:56:52,712 - INFO - __main__ - Application started.
+2024-10-25 09:57:01,162 - INFO - __main__ - Application started.
+2024-10-25 09:57:27,333 - INFO - __main__ - Application started.
+2024-10-25 09:57:35,910 - INFO - __main__ - Application started.
+2024-10-25 09:57:51,849 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-10-25 09:58:13,489 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-10-25 09:58:13,489 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-25 09:59:17,045 - INFO - __main__ - Settings updated: indexer_model=vidore/colqwen2-v0.1, generation_model=gemini, resized_height=280, resized_width=280
+2024-10-25 09:59:29,696 - INFO - models.retriever - Retrieving documents for query: list the patents and their number in tabular format
+2024-10-25 10:00:10,726 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-25 10:00:10,726 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-25 10:00:10,726 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-25 10:00:10,726 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-25 10:00:10,726 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-25 10:00:16,335 - INFO - models.responder - Response generated using Gemini model.
+2024-10-25 10:00:49,476 - INFO - models.retriever - Retrieving documents for query: list the patents and their number 
+2024-10-25 10:01:24,353 - DEBUG - models.retriever - Image already exists: static\images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-25 10:01:24,353 - INFO - models.retriever - Added image to list: images\b206333c-ca70-49b6-8509-8497525ca60b\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png
+2024-10-25 10:01:24,353 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-25 10:01:24,353 - INFO - __main__ - Retrieved images: ['images\\b206333c-ca70-49b6-8509-8497525ca60b\\retrieved_96d9b62ab0d5bec8b355847d1e80654b.png']
+2024-10-25 10:01:24,353 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-25 10:01:29,520 - INFO - models.responder - Response generated using Gemini model.
+2024-10-25 10:03:20,522 - INFO - __main__ - File saved: uploaded_documents\82fca9db-811b-4ba6-a8bd-81a56142f6e9\ICDSA_PDG.pdf
+2024-10-25 10:03:20,522 - INFO - models.indexer - Starting document indexing in folder: uploaded_documents\82fca9db-811b-4ba6-a8bd-81a56142f6e9
+2024-10-25 10:03:20,522 - INFO - models.indexer - Conversion of non-PDF documents to PDFs completed.
+2024-10-25 10:03:43,110 - INFO - models.indexer - RAG model initialized with vidore/colqwen2-v0.1.
+2024-10-25 12:21:53,831 - INFO - __main__ - Application started.
+2024-10-25 12:22:05,598 - INFO - __main__ - Application started.
+2024-10-25 12:22:44,803 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-10-25 12:23:22,486 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-10-25 12:23:22,487 - INFO - __main__ - Application initialized and indexes loaded.
+2024-10-25 12:24:08,476 - INFO - __main__ - File saved: uploaded_documents\82fca9db-811b-4ba6-a8bd-81a56142f6e9\ICDSA_PDG.pdf
+2024-10-25 12:24:08,476 - INFO - models.indexer - Starting document indexing in folder: uploaded_documents\82fca9db-811b-4ba6-a8bd-81a56142f6e9
+2024-10-25 12:24:08,477 - INFO - models.indexer - Conversion of non-PDF documents to PDFs completed.
+2024-10-25 12:24:37,216 - INFO - models.indexer - RAG model initialized with vidore/colqwen2-v0.1.
+2024-10-28 15:17:52,193 - INFO - models.indexer - Indexing completed. Index saved at 'C:\Users\A507658\Downloads\localGPT-Vision\.byaldi\82fca9db-811b-4ba6-a8bd-81a56142f6e9'.
+2024-10-28 15:17:52,221 - INFO - __main__ - Documents indexed successfully.
+2024-10-28 15:55:47,709 - INFO - models.retriever - Retrieving documents for query: what is the name of the conference 
+2024-10-28 15:56:25,417 - DEBUG - models.retriever - Retrieved and saved image: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_56d7a4c572f43d047f22cf29a16d7fa4.png
+2024-10-28 15:56:25,417 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_56d7a4c572f43d047f22cf29a16d7fa4.png
+2024-10-28 15:56:25,417 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_56d7a4c572f43d047f22cf29a16d7fa4.png']
+2024-10-28 15:56:25,424 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_56d7a4c572f43d047f22cf29a16d7fa4.png']
+2024-10-28 15:56:25,424 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-28 15:56:30,405 - INFO - models.responder - Response generated using Gemini model.
+2024-10-28 15:57:09,798 - INFO - models.retriever - Retrieving documents for query: registration details in detailed maner?
+2024-10-28 15:57:43,702 - DEBUG - models.retriever - Retrieved and saved image: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_5727b93cc6868458d50e5da925b12a58.png
+2024-10-28 15:57:43,702 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_5727b93cc6868458d50e5da925b12a58.png
+2024-10-28 15:57:43,702 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_5727b93cc6868458d50e5da925b12a58.png']
+2024-10-28 15:57:43,702 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_5727b93cc6868458d50e5da925b12a58.png']
+2024-10-28 15:57:43,702 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-28 15:57:50,525 - INFO - models.responder - Response generated using Gemini model.
+2024-10-28 15:59:05,472 - INFO - models.retriever - Retrieving documents for query: what is the amount that phani is requesting for?
+2024-10-28 15:59:43,792 - DEBUG - models.retriever - Retrieved and saved image: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_21abde70a218130eb5728ea5a10650b3.png
+2024-10-28 15:59:43,792 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_21abde70a218130eb5728ea5a10650b3.png
+2024-10-28 15:59:43,792 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_21abde70a218130eb5728ea5a10650b3.png']
+2024-10-28 15:59:43,794 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_21abde70a218130eb5728ea5a10650b3.png']
+2024-10-28 15:59:43,794 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-28 15:59:47,856 - INFO - models.responder - Response generated using Gemini model.
+2024-10-28 16:00:49,673 - INFO - models.retriever - Retrieving documents for query: what is the objective of the document?
+2024-10-28 16:01:25,121 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_5727b93cc6868458d50e5da925b12a58.png
+2024-10-28 16:01:25,121 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_5727b93cc6868458d50e5da925b12a58.png
+2024-10-28 16:01:25,122 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_5727b93cc6868458d50e5da925b12a58.png']
+2024-10-28 16:01:25,122 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_5727b93cc6868458d50e5da925b12a58.png']
+2024-10-28 16:01:25,122 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-28 16:01:29,547 - INFO - models.responder - Response generated using Gemini model.
+2024-10-28 16:04:58,155 - INFO - models.retriever - Retrieving documents for query: registration fee details
+2024-10-28 16:05:28,336 - DEBUG - models.retriever - Retrieved and saved image: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2024-10-28 16:05:28,336 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2024-10-28 16:05:28,336 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2024-10-28 16:05:28,336 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2024-10-28 16:05:28,336 - INFO - models.responder - Generating response using model 'gemini'.
+2024-10-28 16:05:32,812 - INFO - models.responder - Response generated using Gemini model.
+2024-11-14 13:24:34,102 - INFO - __main__ - Application started.
+2024-11-14 13:24:41,989 - INFO - __main__ - Application started.
+2024-11-14 13:25:36,352 - INFO - __main__ - RAG model for session 82fca9db-811b-4ba6-a8bd-81a56142f6e9 loaded from index.
+2024-11-14 13:26:04,477 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-11-14 13:26:37,317 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-11-14 13:26:37,317 - INFO - __main__ - Application initialized and indexes loaded.
+2024-11-14 13:26:37,376 - INFO - models.retriever - Retrieving documents for query: registration fee details
+2024-11-14 13:27:09,343 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2024-11-14 13:27:09,343 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2024-11-14 13:27:09,343 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2024-11-14 13:27:09,343 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2024-11-14 13:27:09,343 - INFO - models.responder - Generating response using model 'gemini'.
+2024-11-14 13:27:14,420 - INFO - models.responder - Response generated using Gemini model.
+2024-11-14 16:03:42,296 - INFO - models.retriever - Retrieving documents for query: try to summarize the document.
+2024-11-14 16:04:33,705 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2024-11-14 16:04:33,706 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2024-11-14 16:04:33,707 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2024-11-14 16:04:33,708 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2024-11-14 16:04:33,709 - INFO - models.responder - Generating response using model 'gemini'.
+2024-11-14 16:04:38,942 - INFO - models.responder - Response generated using Gemini model.
+2024-12-31 16:47:30,309 - INFO - __main__ - Application started.
+2024-12-31 16:47:40,000 - INFO - __main__ - Application started.
+2024-12-31 16:48:11,399 - INFO - __main__ - RAG model for session 82fca9db-811b-4ba6-a8bd-81a56142f6e9 loaded from index.
+2024-12-31 16:48:43,564 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2024-12-31 16:49:10,055 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2024-12-31 16:49:10,056 - INFO - __main__ - Application initialized and indexes loaded.
+2024-12-31 16:49:36,485 - INFO - models.retriever - Retrieving documents for query: What is the document is all about?
+2024-12-31 16:50:18,417 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_5727b93cc6868458d50e5da925b12a58.png
+2024-12-31 16:50:18,418 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_5727b93cc6868458d50e5da925b12a58.png
+2024-12-31 16:50:18,418 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_5727b93cc6868458d50e5da925b12a58.png']
+2024-12-31 16:50:18,418 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_5727b93cc6868458d50e5da925b12a58.png']
+2024-12-31 16:50:18,418 - INFO - models.responder - Generating response using model 'qwen'.
+2024-12-31 16:50:22,808 - ERROR - models.responder - Error generating response: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Max retries exceeded with url: /repos/7d/31/7d310a74f7c61cc85bfbb447270b97a5fff45d2d04d20faa0359b67b1dbdb4af/eab4f4dc1abf860794c98ce3759b4ace1059fc0fc041ede76b88988b3557c132?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00005.safetensors%3B+filename%3D%22model-00001-of-00005.safetensors%22%3B&Expires=1735903221&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNTkwMzIyMX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzdkLzMxLzdkMzEwYTc0ZjdjNjFjYzg1YmZiYjQ0NzI3MGI5N2E1ZmZmNDVkMmQwNGQyMGZhYTAzNTliNjdiMWRiZGI0YWYvZWFiNGY0ZGMxYWJmODYwNzk0Yzk4Y2UzNzU5YjRhY2UxMDU5ZmMwZmMwNDFlZGU3NmI4ODk4OGIzNTU3YzEzMj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=OaZgMQp1vLvDQBp9PVvTAfqOTEXn58aLX1xd3YtOp32I7Tbyhcy~5e4KrfUDBZgFkHd2wNxGTS4LZZV19nH0jjTXEOGDAMTNEtxNbWMyhuiLhWR93~7dlheZPa~0BiGbPWV3yy0g0ydmU1MqprU9oEfCyKVW2eQUTN2gISFAe0HPAPrggXPox0CS09oO0i~Cn5W9AYDiO6EseAvUDhlikMziWJln0Y2wNns8mgxzM4Qp3eCFH9VFlVGhV2rvrZlr-h62TFe6UwW7v91zUkBFEMK6pmynBsBWls4BbBTX5KZ7y-P8gu7FKhK3HWjiSEmmOArLlROvIxtz3Icna5dWng__&Key-Pair-Id=K24J24Z295AEI9 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1007)')))"), '(Request ID: 45ebd5bb-ba7d-4032-ac10-312da33d6d7e)')
+2024-12-31 16:51:19,050 - INFO - models.retriever - Retrieving documents for query: try to summarize the document.
+2024-12-31 16:51:53,012 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2024-12-31 16:51:53,013 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2024-12-31 16:51:53,013 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2024-12-31 16:51:53,013 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2024-12-31 16:51:53,014 - INFO - models.responder - Generating response using model 'qwen'.
+2024-12-31 16:51:55,470 - ERROR - models.responder - Error generating response: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Max retries exceeded with url: /repos/7d/31/7d310a74f7c61cc85bfbb447270b97a5fff45d2d04d20faa0359b67b1dbdb4af/eab4f4dc1abf860794c98ce3759b4ace1059fc0fc041ede76b88988b3557c132?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00005.safetensors%3B+filename%3D%22model-00001-of-00005.safetensors%22%3B&Expires=1735903314&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNTkwMzMxNH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzdkLzMxLzdkMzEwYTc0ZjdjNjFjYzg1YmZiYjQ0NzI3MGI5N2E1ZmZmNDVkMmQwNGQyMGZhYTAzNTliNjdiMWRiZGI0YWYvZWFiNGY0ZGMxYWJmODYwNzk0Yzk4Y2UzNzU5YjRhY2UxMDU5ZmMwZmMwNDFlZGU3NmI4ODk4OGIzNTU3YzEzMj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=FQJ6s9aGdXk3Qhj0QGlnEN7-X5ebzgB4gIJJoCG1a6mTnQMVnWknHR4hDzoc2MnjQEaIc3wsvNLurkNeVD4jyXKHbOWUyohnFIJziseBDevV8GugvWl4eQ3Dg-m9-YuT2gZrg7tS2dpBiF6ksgcXIUp0AIj3-QXAFtGUChG2IjTfU~D-U6xG-XuDLOxo0jIPoIXSoHMrU2bhk8C5T0Gc6OPWVk9mQ68FcrkRnB2h7Ik1XCtUQTjtZJDrwo6OqXoqOTuYGwAICbjK6250Ax-ttwiz8uEysgfnBjLeSCfKq8Q~FdLURqxv4AOhEvU-NYxvFg9o8IVgay~~~jIn8KH7gA__&Key-Pair-Id=K24J24Z295AEI9 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1007)')))"), '(Request ID: c8a3febd-38f2-4106-9114-1d7c355a03b1)')
+2024-12-31 16:55:30,160 - INFO - __main__ - Application started.
+2025-01-02 13:54:00,595 - INFO - __main__ - Application started.
+2025-01-02 13:54:09,351 - INFO - __main__ - Application started.
+2025-01-02 13:54:42,330 - INFO - __main__ - RAG model for session 82fca9db-811b-4ba6-a8bd-81a56142f6e9 loaded from index.
+2025-01-02 13:55:15,455 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2025-01-02 13:55:48,534 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2025-01-02 13:55:48,534 - INFO - __main__ - Application initialized and indexes loaded.
+2025-01-02 13:56:53,224 - INFO - models.retriever - Retrieving documents for query: try to summarize the document.
+2025-01-02 13:57:46,291 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2025-01-02 13:57:46,291 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2025-01-02 13:57:46,291 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2025-01-02 13:57:46,291 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2025-01-02 13:57:46,292 - INFO - models.responder - Generating response using model 'qwen'.
+2025-01-02 13:57:48,882 - ERROR - models.responder - Error generating response: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Max retries exceeded with url: /repos/7d/31/7d310a74f7c61cc85bfbb447270b97a5fff45d2d04d20faa0359b67b1dbdb4af/eab4f4dc1abf860794c98ce3759b4ace1059fc0fc041ede76b88988b3557c132?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00005.safetensors%3B+filename%3D%22model-00001-of-00005.safetensors%22%3B&Expires=1736065239&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNjA2NTIzOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzdkLzMxLzdkMzEwYTc0ZjdjNjFjYzg1YmZiYjQ0NzI3MGI5N2E1ZmZmNDVkMmQwNGQyMGZhYTAzNTliNjdiMWRiZGI0YWYvZWFiNGY0ZGMxYWJmODYwNzk0Yzk4Y2UzNzU5YjRhY2UxMDU5ZmMwZmMwNDFlZGU3NmI4ODk4OGIzNTU3YzEzMj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Twa0EcbO0OXCNxobKqiAzZzTZf3k2-v10D3p83YBGtprz8Un4RyRydb0BXw6lNB-0OIE88bQGyW0~yelhD8f2uEzspWBkoI9STPLQ3DUuJFl1Lvm04xPCRdqOY0A5r7BgnzwqjIMNak73J8pVC82GSatyp0g-jp11txKEQdY3UGWWDYBILza8pwAkd12AUpGp1zZUYwPoUKc2Pgcvh74r4U5bAyUInfSZ9FsRYqSgByZP6tV2t~6fxSEUCbgPDKT4CWrfgZeuirL5AoxN0rUBL20podxmZ9dLW2cRD-VVv4tgF6v0bZUQlL-OeIUUxicsAsFChty2dZgVtoIEYmJgg__&Key-Pair-Id=K24J24Z295AEI9 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1007)')))"), '(Request ID: 129d2c9a-5e05-440b-8ef1-1b889e2bb95b)')
+2025-01-02 14:27:47,430 - INFO - __main__ - Application started.
+2025-01-02 14:28:44,835 - INFO - __main__ - Application started.
+2025-01-02 14:28:57,327 - INFO - __main__ - Application started.
+2025-01-06 10:20:05,783 - INFO - __main__ - Application started.
+2025-01-06 10:20:13,832 - INFO - __main__ - Application started.
+2025-01-06 10:21:40,523 - INFO - __main__ - RAG model for session 82fca9db-811b-4ba6-a8bd-81a56142f6e9 loaded from index.
+2025-01-06 10:22:07,031 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2025-01-06 10:22:32,651 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2025-01-06 10:22:32,651 - INFO - __main__ - Application initialized and indexes loaded.
+2025-01-06 10:22:42,453 - INFO - models.retriever - Retrieving documents for query: try to summarize the document.
+2025-01-06 10:23:26,895 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2025-01-06 10:23:26,895 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2025-01-06 10:23:26,895 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2025-01-06 10:23:26,895 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2025-01-06 10:23:26,896 - INFO - models.responder - Generating response using model 'qwen'.
+2025-01-06 10:26:40,043 - INFO - __main__ - Application started.
+2025-01-06 10:27:26,909 - INFO - __main__ - RAG model for session 82fca9db-811b-4ba6-a8bd-81a56142f6e9 loaded from index.
+2025-01-06 10:27:46,683 - INFO - __main__ - RAG model for session b206333c-ca70-49b6-8509-8497525ca60b loaded from index.
+2025-01-06 10:28:15,559 - INFO - __main__ - RAG model for session e65a89d9-6d82-4fca-a87a-465b0dfa0618 loaded from index.
+2025-01-06 10:28:15,560 - INFO - __main__ - Application initialized and indexes loaded.
+2025-01-06 10:28:15,565 - INFO - models.retriever - Retrieving documents for query: try to summarize the document.
+2025-01-06 10:28:52,203 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2025-01-06 10:28:52,203 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2025-01-06 10:28:52,203 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2025-01-06 10:28:52,203 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2025-01-06 10:28:52,204 - INFO - models.responder - Generating response using model 'qwen'.
+2025-01-06 10:38:32,035 - ERROR - models.responder - Error generating response: You can't move a model that has some modules offloaded to cpu or disk.
+2025-01-06 10:52:07,182 - INFO - models.retriever - Retrieving documents for query: try to summarize the document.
+2025-01-06 10:52:41,785 - DEBUG - models.retriever - Image already exists: static\images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2025-01-06 10:52:41,785 - INFO - models.retriever - Added image to list: images\82fca9db-811b-4ba6-a8bd-81a56142f6e9\retrieved_aa73e03f982b12fbe9f679b514a51f15.png
+2025-01-06 10:52:41,786 - INFO - models.retriever - Total 1 documents retrieved. Image paths: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2025-01-06 10:52:41,786 - INFO - __main__ - Retrieved images: ['images\\82fca9db-811b-4ba6-a8bd-81a56142f6e9\\retrieved_aa73e03f982b12fbe9f679b514a51f15.png']
+2025-01-06 10:52:41,786 - INFO - models.responder - Generating response using model 'qwen'.
+2025-01-06 10:52:54,592 - ERROR - models.responder - Error generating response: You can't move a model that has some modules offloaded to cpu or disk.
