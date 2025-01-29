@@ -1,4 +1,4 @@
-# 🖼️ Image RAG (Colpali + LLaMA Vision)
+# 🖼️ CA-MuViDRG
 
 A powerful Retrieval-Augmented Generation (RAG) system combining Colpali's ColQwen image embeddings with LLaMA Vision via Ollama.
 
