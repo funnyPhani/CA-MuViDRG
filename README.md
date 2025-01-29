@@ -10,14 +10,14 @@ Follow these steps to set up and run the application on your local machine.
 
 1. Clone the Repository
    ```bash
-   git clone https://github.com/PromtEngineer/localGPT-Vision.git
-   cd localGPT-Vision
+   git clone https://github.com/funnyPhani/CA-MuViDRG.git
+   cd CA-MuViDRG
    ```
 
 2. Create a Conda Environment
    ```bash
-   conda create -n localgpt-vision python=3.10
-   conda activate localgpt-vision
+   conda create -n CA-MuViDRG python=3.10
+   conda activate CA-MuViDRG
    ```
 
 3a. Install Dependencies
