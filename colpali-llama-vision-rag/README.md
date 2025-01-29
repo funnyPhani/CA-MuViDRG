@@ -46,7 +46,7 @@ A powerful Retrieval-Augmented Generation (RAG) system combining Colpali's ColQw
 
 2. Clone and setup environment:
    ```bash
-   git clone https://github.com/kturung/colpali-llama-vision-rag.git
+   git clone https://github.com/funnyPhani/CA-MuViDRG.git
    python -m venv venv
    source venv/bin/activate  # For Mac/Linux
    # or
@@ -58,7 +58,7 @@ A powerful Retrieval-Augmented Generation (RAG) system combining Colpali's ColQw
 
 4. Launch application:
    ```bash
-   streamlit run app.py
+   streamlit colpali-llama-vision-rag/run app.py
    ```
 
 > Note: Restart your terminal/IDE after modifying PATH variables
