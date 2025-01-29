@@ -221,16 +221,4 @@ graph TD
     end
 ```
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -am 'Add new feature'`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=PromtEngineer/localGPT-Vision&type=Date)](https://star-history.com/#PromtEngineer/localGPT-Vision&Date)
 
