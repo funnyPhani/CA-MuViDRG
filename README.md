@@ -1,6 +1,6 @@
 ## System Architecture 
 [CA-MuViDRG](https://github.com/funnyPhani/CA-MuViDRG/blob/main/uploaded_documents/CA-MuViDRG.drawio-crop.pdf)
-
+![Diagram of CA-MuViDRG](uploaded_documents/CA-MuViDRG.pdf)
 ## Prerequisites
 - Anaconda or Miniconda installed on your system
 - Python 3.10 or higher
